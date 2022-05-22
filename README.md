@@ -8,9 +8,11 @@ The purpose of this analysis is to refactor, the Module 2 solution code. By doin
 # Results
 
 ## Efficiency
-The refactored code and the module code had a approximately the same efficiency. As shown by the comparison below, the time difference was insignificant.  
-![VBA_Challenge_2017](https://user-images.githubusercontent.com/104809098/169717268-aaf494dd-5d47-4e87-822c-f09bf0cec12b.png)  ![VBA_Module_2017](https://user-images.githubusercontent.com/104809098/169717280-336da3f3-aa6d-4e78-9c3c-2b891ab05286.png)
+The refactored code and the module code had the same time differantial. As shown by the comparison below. However, it can be stated that the refactored code is more efficient. The refactored code does more for the readeability of the analysis. First the numerical data is formated in such a way that it can be more easily read. Secondly, the Return column is color coded to identyfy the stocks with the passable returns. Finally, the column titles were bolded and underlined to differentiate between the headers and the data.      
+<img src=![VBA_Challenge_2017](https://user-images.githubusercontent.com/104809098/169717268-aaf494dd-5d47-4e87-822c-f09bf0cec12b.png)width=50% height=50%>  ![VBA_Module_2017](https://user-images.githubusercontent.com/104809098/169717280-336da3f3-aa6d-4e78-9c3c-2b891ab05286.png)
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/104809098/169717294-e525e570-3f6f-447b-ba13-06f3e5604768.png) ![VBA_Module_2018](https://user-images.githubusercontent.com/104809098/169717297-cf0b3ae4-308c-4fc7-8737-ddb0941fb274.png)
 
-
-
+## Code Readability
+The refactored code is easiers to read. The variables use have greater significancs to the data they are being refered to as shown below. Further more by using tickerIndex instead of ticker, you reduce the probability of getting an error in the code. This is due to having a clear differnce between the variable being used to index the tickers array.  
+![VBA_Challenge_Code](https://user-images.githubusercontent.com/104809098/169717993-27cac0fa-62b9-4d52-8885-b00b924d9dd7.png)
+![VBA_Module_Code](https://user-images.githubusercontent.com/104809098/169717997-10127671-5a1b-4b23-8f8b-24da078902e0.png)
