@@ -16,8 +16,6 @@ The refactored code and the module code had the same time differantial. As shown
 ## Code Readability
 The refactored code is easiers to read. The variables used have greater significancs to the data they are being refered to as shown below(tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices) Vs (tickers, totalVolumes, startingPrices, and endingPrices).  Furthermore by using tickerIndex instead of ticker, you reduce the probability of getting an error in the code. This is due to having a clear differance between the indexing variable and the array variable.  
 ![VBA_Challenge_Code](https://user-images.githubusercontent.com/104809098/169717993-27cac0fa-62b9-4d52-8885-b00b924d9dd7.png)
-![VBA_Module_Code](https://user-images.githubusercontent.com/104809098/169717997-10127671-5a1b-4b23-8f8b-24da078902e0.png) 
-
 
 # Summary
-While the reformated code has the same functionality as the Module code, it's overall better when it comes to Efficiency (By accounting for formatting)  and Code Readablity. This meets the requirements for this project.   
+While the refactored code has the same functionality as the Module code, it's overall better when it comes to Efficiency (By accounting for formatting)  and Code Readablity. This meets the requirements for this project. The only deficiency is that the stocks have to be hardcoded into the VBA. This is highly inefficient if you need to compare more stocks or different sets of stocks. It would be better to extract Unique stock values and and use that information for to index the stocks data.     
